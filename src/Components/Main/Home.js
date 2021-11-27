@@ -34,7 +34,7 @@ const Home = () => {
     // STATE
 
     
-const [skill,setSkill]   = useState([
+const [skill]   = useState([
     {
     skillname:"HTML",
     strength:100,

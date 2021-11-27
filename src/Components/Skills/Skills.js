@@ -1,13 +1,13 @@
 import React,{useState,useEffect} from 'react';
 import "./Skills.css";
-import Title from "../Title/Title";
+
 
 const Skills = ({skillname,strength}) => {
 
    
-    const [count,setCount] = useState(0);
+    const [count] = useState(0);
     const Load=()=>{
-        if(count==strength){
+        if(count===strength){
             console.log("Loaded")
         }
 
